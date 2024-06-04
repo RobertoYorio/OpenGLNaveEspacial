@@ -1,4 +1,6 @@
 # OpenGLNaveEspacial
+[Muestra de la Nave](https://drive.google.com/file/d/1yddY4Q6g-foovm9SbgpuQFOqeUULtfwb/view?usp=drive_link)
+
 Este proyecto se basa en crear una nave espacial funcional con OpenGL y recorer el espacio exterior donde se puede encontrar con objetos espaciales. Para lograrlo primero, he creado tres naves distintas, cada una con cabinas y disparos diferentes. Cada cabina tiene un movimiento específico de la cabeza. Además, he dibujado una zona de aterrizaje donde la nave empieza parada y, al pulsar "P", despega. Si vuelve a estar en la zona de aterrizaje y pulsas "P" de nuevo, aterrizas.
 
 He implementado un cubo invisible que se mueve con la cámara, donde se encuentran todos los asteroides. Si un asteroide sale del cubo, se teletransporta de vuelta al interior del cubo. También he optimizado el uso de polígonos, haciendo que solo se creen los meteoritos visibles.
@@ -9,9 +11,9 @@ Para los asteroides, he creado una primitiva propia que replica una esfera punto
 
 Al pulsar "M", se dibujan los planetas del sistema solar alrededor del mapa. Si apuntas hacia uno de ellos, se hace más grande. Una vez seleccionado, al tocar la letra "J", se crea una animación de salto para viajar a ese planeta. Si deseas regresar al hangar, puedes tocar la tecla "H". El fondo es una esfera texturizada por dentro, que se mueve con la cámara.
 
-[Muestra de la Nave](https://drive.google.com/file/d/1yddY4Q6g-foovm9SbgpuQFOqeUULtfwb/view?usp=drive_link)
-
 -------------------------------------------------------------------------------------------------
+
+[Spaceship Display](https://drive.google.com/file/d/1yddY4Q6g-foovm9SbgpuQFOqeUULtfwb/view?usp=drive_link)
 
 This project is based on creating a functional spaceship with OpenGL and traversing outer space where it can encounter space objects. To accomplish this first, I created three different ships, each with different cockpits and types of shots. Each cockpit has a specific head movement. In addition, I have drawn a landing zone where the ship starts stationary and, by pressing “P”, takes off. If you return to the landing zone and press “P” again, you land.
 
@@ -22,5 +24,3 @@ I have designed shots that can explode the asteroids. For this, I assigned a uni
 For the asteroids, I have created my own primitive that replicates a sphere point by point, with the difference that each point is permuted to deform it. Once deformed, I can randomly scale it to look like an asteroid. I have also created my own sphere primitive to texture it properly.
 
 Pressing “M” draws the planets of the solar system around the map. If you point at one of them, it becomes larger. Once selected, tapping the letter “J” creates a jump animation to travel to that planet. If you want to return to the hangar, you can tap the “H” key. The background is a textured sphere inside, which moves with the camera.
-
-[Spaceship Display](https://drive.google.com/file/d/1yddY4Q6g-foovm9SbgpuQFOqeUULtfwb/view?usp=drive_link)
