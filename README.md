@@ -9,6 +9,7 @@ Para los asteroides, he creado una primitiva propia que replica una esfera punto
 
 Al pulsar "M", se dibujan los planetas del sistema solar alrededor del mapa. Si apuntas hacia uno de ellos, se hace más grande. Una vez seleccionado, al tocar la letra "J", se crea una animación de salto para viajar a ese planeta. Si deseas regresar al hangar, puedes tocar la tecla "H". El fondo es una esfera texturizada por dentro, que se mueve con la cámara.
 
+[Muestra de la Nave](https://drive.google.com/file/d/1yddY4Q6g-foovm9SbgpuQFOqeUULtfwb/view?usp=drive_link)
 
 -------------------------------------------------------------------------------------------------
 
@@ -21,3 +22,5 @@ I have designed shots that can explode the asteroids. For this, I assigned a uni
 For the asteroids, I have created my own primitive that replicates a sphere point by point, with the difference that each point is permuted to deform it. Once deformed, I can randomly scale it to look like an asteroid. I have also created my own sphere primitive to texture it properly.
 
 Pressing “M” draws the planets of the solar system around the map. If you point at one of them, it becomes larger. Once selected, tapping the letter “J” creates a jump animation to travel to that planet. If you want to return to the hangar, you can tap the “H” key. The background is a textured sphere inside, which moves with the camera.
+
+[Spaceship Display](https://drive.google.com/file/d/1yddY4Q6g-foovm9SbgpuQFOqeUULtfwb/view?usp=drive_link)
