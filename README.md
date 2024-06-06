@@ -1,4 +1,5 @@
 # OpenGLNaveEspacial
+![Readme Image](https://github.com/RobertoYorio/OpenGLNaveEspacial/blob/main/Readme%20Image.PNG)
 [Muestra de la Nave](https://drive.google.com/file/d/1yddY4Q6g-foovm9SbgpuQFOqeUULtfwb/view?usp=drive_link)
 
 Este proyecto se basa en crear una nave espacial funcional con OpenGL y recorer el espacio exterior donde se puede encontrar con objetos espaciales. Para lograrlo primero, he creado tres naves distintas, cada una con cabinas y disparos diferentes. Cada cabina tiene un movimiento específico de la cabeza. Además, he dibujado una zona de aterrizaje donde la nave empieza parada y, al pulsar "P", despega. Si vuelve a estar en la zona de aterrizaje y pulsas "P" de nuevo, aterrizas.
